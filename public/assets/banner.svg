@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Catalog Sniper">
+
+  <defs>
+    <linearGradient id="tail" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="-120" y2="120">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .m { opacity: 0; animation: fly 7s linear infinite; }
+    .a { animation-delay: 0s; }
+    .b { animation-delay: 1.8s; animation-duration: 8s; }
+    .c { animation-delay: 3.4s; animation-duration: 6.5s; }
+    .d { animation-delay: 4.9s; animation-duration: 9s; }
+    .e { animation-delay: 2.6s; animation-duration: 7.5s; }
+    .f { animation-delay: 5.8s; animation-duration: 8.5s; }
+
+    @keyframes fly {
+      0% { opacity: 0; transform: translate(0, 0); }
+      3% { opacity: 1; }
+      22%, 100% { opacity: 0; transform: translate(-340px, 340px); }
+    }
+
+    .t { font-family: Geist, Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+
+    @media (prefers-reduced-motion: reduce) { .m { animation: none; opacity: 0; } }
+  </style>
+
+  <rect width="1200" height="300" fill="#09090b"/>
+
+  <g fill="#ffffff">
+    <circle cx="90" cy="60" r="1" opacity=".5"/>
+    <circle cx="210" cy="230" r="1.2" opacity=".35"/>
+    <circle cx="330" cy="40" r="1" opacity=".4"/>
+    <circle cx="470" cy="260" r="1" opacity=".3"/>
+    <circle cx="760" cy="30" r="1.2" opacity=".45"/>
+    <circle cx="880" cy="250" r="1" opacity=".35"/>
+    <circle cx="1010" cy="70" r="1" opacity=".5"/>
+    <circle cx="1120" cy="210" r="1.2" opacity=".4"/>
+  </g>
+
+  <g transform="translate(1120,-20)">
+    <g class="m a">
+      <line x1="0" y1="0" x2="-120" y2="120"
+        stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/>
+      <circle r="2" fill="#fff"/>
+    </g>
+  </g>
+
+  <g transform="translate(900,-30)">
+    <g class="m b">
+      <line x1="0" y1="0" x2="-120" y2="120"
+        stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/>
+      <circle r="2" fill="#fff"/>
+    </g>
+  </g>
+
+  <g transform="translate(1180,40)">
+    <g class="m c">
+      <line x1="0" y1="0" x2="-120" y2="120"
+        stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/>
+      <circle r="2" fill="#fff"/>
+    </g>
+  </g>
+
+  <g transform="translate(640,-20)">
+    <g class="m d">
+      <line x1="0" y1="0" x2="-120" y2="120"
+        stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/>
+      <circle r="2" fill="#fff"/>
+    </g>
+  </g>
+
+  <g transform="translate(1000,60)">
+    <g class="m e">
+      <line x1="0" y1="0" x2="-120" y2="120"
+        stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/>
+      <circle r="2" fill="#fff"/>
+    </g>
+  </g>
+
+  <g transform="translate(420,-30)">
+    <g class="m f">
+      <line x1="0" y1="0" x2="-120" y2="120"
+        stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/>
+      <circle r="2" fill="#fff"/>
+    </g>
+  </g>
+
+  <text class="t" x="600" y="180" text-anchor="middle" font-size="54" font-weight="700" letter-spacing="-2" fill="#fafafa">Catalog Sniper</text>
+  
+</svg>
