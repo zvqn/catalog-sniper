@@ -1,63 +1,40 @@
-# Catalog Sniper
+<div align="center">
 
-A Roblox catalog data API providing paginated emotes, animations, and moods, with the existing full JSON files retained for compatibility.
+<img src="public/assets/banner.svg" alt="Catalog Sniper" width="100%">
 
-### URL
+<br>
 
-[https://catalog-sniper.vercel.app](https://catalog-sniper.vercel.app)
+A free JSON API for Roblox catalog emotes, animations, and moods.
+
+[Website](https://catalog-sniper.vercel.app) | [Docs](https://catalog-sniper.vercel.app/#endpoints) | [Lua example](example.lua)
+
+</div>
 
 ---
 
-# Folder Structure
-```
-Catalog Sniper
-│
-├── .github/
-│   └── workflows/
-│       └── main.yml
-│
-├── public/
-│   ├── index.html
-│   ├── style.css
-│   │
-│   ├── docs/
-│   │   ├── index.html
-│   │   └── style.css
-│   │
-│   └── v1/
-│       ├── info.json
-│       ├── emotedata.json
-│       ├── animationdata.json
-│       └── mooddata.json
-│
-├── api/
-│   ├── emotes.js
-│   ├── animation.js
-│   └── moods.js
-├── generated/
-│   └── search-indexes/     # Built from public/v1 datasets
-├── lib/
-│   └── catalog-api.js
-├── scripts/
-│   └── build-search-index.js
-├── example.lua             # script example
-├── main.js
-└── README.md
-```
+## API
 
-## Paginated API
-
-The Vercel functions expose these endpoints:
-
-| Dataset | Endpoint |
-| --- | --- |
-| Emotes | `/api/emotes` |
+| Dataset    | Endpoint         |
+| ---------- | ---------------- |
+| Emotes     | `/api/emotes`    |
 | Animations | `/api/animation` |
-| Moods | `/api/moods` |
+| Moods      | `/api/moods`     |
 
-Each endpoint accepts `page` (default `1`), `limit` (default `50`, maximum `200`), and `search`. Search is case-insensitive, whitespace-normalized, and matches names and descriptions. Each result has `id`, `name`, and `description`; records without source descriptions use an empty string. Existing fields such as `bundledItems` and `custom` are preserved.
+Every endpoint accepts these query parameters:
 
-Example: `/api/emotes?page=2&limit=25&search=moon%20walk`
+| Parameter | Default | Description                                                      |
+| --------- | ------- | ---------------------------------------------------------------- |
+| `page`    | `1`     | Page number.                                                     |
+| `limit`   | `50`    | Results per page. The maximum is `200`.                          |
+| `search`  | none    | Case-insensitive search across names and descriptions.           |
+
+Each result has an `id`, a `name`, and a `description`. If the source has no description, it is an empty string. Extra fields such as `bundledItems` and `custom` are kept as they are.
+
+Example request:
+
+```
+/api/emotes?page=2&limit=25&search=moon%20walk
+```
 
 ```json
 {
@@ -66,8 +43,44 @@ Example: `/api/emotes?page=2&limit=25&search=moon%20walk`
 }
 ```
 
-`public/v1/*.json` remain available as legacy full-dataset downloads. Vercel API functions use generated trigram indexes to narrow server-side substring search. The hourly GitHub Actions workflow rebuilds those indexes immediately after updating and normalizing all source datasets.
+The full datasets are still available as downloads in `public/v1/` (`emotedata.json`, `animationdata.json`, `mooddata.json`), along with `info.json` for counts and last-synced times.
 
-## Script example
+## Lua example
 
-[`example.lua`](example.lua) is a standalone executor example. It loads the first page on run, supports server-side search and page sizes of 25, 50, 100, or 200, caches pages in memory, ignores stale responses, and exposes callbacks to connect to existing UI controls.
+[`example.lua`](example.lua) is a standalone script for Delta and other executors. It loads the first page when you run it and supports server-side search and page sizes of 25, 50, 100, or 200. It also caches pages in memory and ignores outdated responses. You can hook its callbacks up to your own UI.
+
+## How it works
+
+A GitHub Actions workflow runs every hour. It updates and normalizes the source datasets, then rebuilds the search indexes. The Vercel functions use those trigram indexes to narrow down substring searches on the server.
+
+## Project structure
+
+```
+.
+├── .github/workflows/main.yml
+├── api/
+│   ├── emotes.js
+│   ├── animation.js
+│   └── moods.js
+├── assets/
+│   ├── banner.svg
+│   └── logo.png
+├── generated/search-indexes/   built from public/v1
+├── lib/catalog-api.js
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── v1/
+│       ├── info.json
+│       ├── emotedata.json
+│       ├── animationdata.json
+│       └── mooddata.json
+├── scripts/build-search-index.js
+├── example.lua
+├── main.js
+└── README.md
+```
+
+## Links
+
+Repository: https://github.com/zvqn/catalog-sniper
