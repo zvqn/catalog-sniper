@@ -1,63 +1,91 @@
+"use strict";
+
+/**
+ * Builds the trigram search indexes used by the API.
+ *
+ * For each dataset in public/v1 this script:
+ *  1. Makes sure every record has a string `description`.
+ *  2. Writes an index of three-character grams to generated/search-indexes.
+ */
+
 const fs = require("fs");
 const path = require("path");
+const { normalizeSearchText } = require("../lib/catalog-api");
 
-const projectRoot = path.join(__dirname, "..");
-const indexDirectory = path.join(projectRoot, "generated", "search-indexes");
-const datasets = [
+const PROJECT_ROOT = path.join(__dirname, "..");
+const DATA_DIRECTORY = path.join(PROJECT_ROOT, "public", "v1");
+const INDEX_DIRECTORY = path.join(PROJECT_ROOT, "generated", "search-indexes");
+
+const DATASETS = [
   { file: "emotedata.json", index: "emotes-search.json" },
   { file: "animationdata.json", index: "animation-search.json" },
   { file: "mooddata.json", index: "moods-search.json" }
 ];
 
-function normalizeSearchText(value) {
-  return String(value ?? "")
-    .normalize("NFKC")
-    .toLowerCase()
-    .replace(/\s+/gu, " ")
-    .trim();
-}
-
-function trigrams(value) {
+/**
+ * @param {string} value Normalized text
+ * @returns {Set<string>} Every three-character gram in the text
+ */
+function getTrigrams(value) {
   const characters = Array.from(value);
-  const result = new Set();
+  const grams = new Set();
   for (let offset = 0; offset <= characters.length - 3; offset++) {
-    result.add(characters.slice(offset, offset + 3).join(""));
+    grams.add(characters.slice(offset, offset + 3).join(""));
   }
-  return result;
+  return grams;
 }
 
-for (const dataset of datasets) {
-  const dataPath = path.join(projectRoot, "public", "v1", dataset.file);
+/**
+ * Gives every record a string description. Returns how many were fixed.
+ * @param {object[]} records
+ */
+function ensureDescriptions(records) {
+  let fixed = 0;
+  for (const record of records) {
+    if (typeof record.description !== "string") {
+      record.description = "";
+      fixed++;
+    }
+  }
+  return fixed;
+}
+
+/**
+ * Maps each trigram to the positions of the records that contain it.
+ * @param {object[]} records
+ * @returns {Record<string, number[]>}
+ */
+function buildPostings(records) {
+  const postings = Object.create(null);
+  records.forEach((record, position) => {
+    const searchable = normalizeSearchText(`${record.name ?? ""} ${record.description}`);
+    for (const gram of getTrigrams(searchable)) {
+      (postings[gram] ||= []).push(position);
+    }
+  });
+  return postings;
+}
+
+function buildDataset({ file, index }) {
+  const dataPath = path.join(DATA_DIRECTORY, file);
   const payload = JSON.parse(fs.readFileSync(dataPath, "utf8"));
   if (!Array.isArray(payload.data)) {
     throw new Error(`${dataPath} must contain a data array`);
   }
 
-  let descriptionsAdded = 0;
-  for (const record of payload.data) {
-    if (typeof record.description !== "string") {
-      record.description = "";
-      descriptionsAdded++;
-    }
-  }
-  if (descriptionsAdded > 0) {
+  const descriptionsFixed = ensureDescriptions(payload.data);
+  if (descriptionsFixed > 0) {
     fs.writeFileSync(dataPath, `${JSON.stringify(payload, null, 2)}\n`);
   }
 
-  const postings = Object.create(null);
-  payload.data.forEach((record, ordinal) => {
-    const searchable = normalizeSearchText(`${record.name || ""} ${record.description || ""}`);
-    for (const gram of trigrams(searchable)) {
-      (postings[gram] ||= []).push(ordinal);
-    }
-  });
+  const postings = buildPostings(payload.data);
+  fs.mkdirSync(INDEX_DIRECTORY, { recursive: true });
+  fs.writeFileSync(path.join(INDEX_DIRECTORY, index), `${JSON.stringify(postings)}\n`);
 
-  const indexPath = path.join(indexDirectory, dataset.index);
-  fs.mkdirSync(path.dirname(indexPath), { recursive: true });
-  fs.writeFileSync(indexPath, `${JSON.stringify(postings)}\n`);
   console.log(
-    `${dataset.file}: ${payload.data.length} records, ${Object.keys(postings).length} trigrams, ` +
-    `${descriptionsAdded} descriptions normalized`
+    `${file}: ${payload.data.length} records, ${Object.keys(postings).length} trigrams, ` +
+    `${descriptionsFixed} descriptions added`
   );
 }
 
+DATASETS.forEach(buildDataset);
