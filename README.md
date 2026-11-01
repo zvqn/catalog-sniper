@@ -6,7 +6,7 @@
 
 A free JSON API for Roblox catalog emotes, animations, and moods.
 
-[Website](https://catalog-sniper.vercel.app) | [Docs](https://catalog-sniper.vercel.app/#endpoints) | [Lua example](example.lua)
+[Get Script](https://kei-scripts.vercel.app/script/fe-emotes-14) | [Docs](https://catalog-sniper.vercel.app) | [Lua example](example.lua)
 
 </div>
 
@@ -80,7 +80,3 @@ A GitHub Actions workflow runs every hour. It updates and normalizes the source 
 ├── main.js
 └── README.md
 ```
-
-## Links
-
-Repository: https://github.com/zvqn/catalog-sniper
