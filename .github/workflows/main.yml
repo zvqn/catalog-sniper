@@ -1,0 +1,102 @@
+name: Sniper Auto Update
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-files:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install jq -y
+
+      - name: Run Sniper Update
+        run: |
+          echo "Starting catalog update..."
+          node main.js
+
+      - name: Normalize descriptions and rebuild search indexes
+        run: node scripts/build-search-index.js
+
+      - name: Update API Info
+        run: |
+          DATE=$(date -u +"%Y-%m-%dT%H:%M:%S.000Z")
+
+          EMOTES=$(jq '.totalItems' public/v1/emotedata.json)
+          ANIMATIONS=$(jq '.totalItems' public/v1/animationdata.json)
+          MOODS=$(jq '.totalItems' public/v1/mooddata.json)
+
+          cat > public/v1/info.json <<EOF
+          {
+            "version": "1.0.0",
+            "lastUpdate": "$DATE",
+            "emotes": {
+              "count": $EMOTES,
+              "path": "/v1/emotedata.json"
+            },
+            "animations": {
+              "count": $ANIMATIONS,
+              "path": "/v1/animationdata.json"
+            },
+            "moods": {
+              "count": $MOODS,
+              "path": "/v1/mooddata.json"
+            }
+          }
+          EOF
+
+      - name: Check for Changes
+        id: git-check
+        run: |
+          if ! git diff --exit-code -- public/v1 generated/search-indexes; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit & Push Changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add public/v1 generated/search-indexes
+
+          git commit -m "chore: update catalog data - $(date '+%Y-%m-%d %H:%M:%S UTC')"
+
+          git push
+
+      - name: Log Update Results
+        run: |
+          for FILE in public/v1/emotedata.json public/v1/animationdata.json public/v1/mooddata.json; do
+            echo "--- $FILE ---"
+
+            if [ -f "$FILE" ]; then
+              TOTAL_ITEMS=$(jq '.totalItems' "$FILE")
+              LAST_UPDATE=$(jq -r '.lastUpdate' "$FILE")
+
+              echo "Update completed"
+              echo "Total items: $TOTAL_ITEMS"
+              echo "Last update: $LAST_UPDATE"
+            else
+              echo "$FILE not found"
+            fi
+          done
+
+      - name: Log API Info
+        run: |
+          echo "--- public/v1/info.json ---"
+          cat public/v1/info.json
