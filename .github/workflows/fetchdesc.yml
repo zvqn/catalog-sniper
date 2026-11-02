@@ -1,0 +1,54 @@
+name: Fetch Descriptions
+
+on:
+  schedule:
+    - cron: "30 * * * *"
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Records to check in this run"
+        default: "1000"
+
+# Shares a lock with the main update so the two never push at the same time.
+concurrency:
+  group: sniper-data
+  cancel-in-progress: false
+
+jobs:
+  fetch-descriptions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch missing descriptions
+        env:
+          DATA_DIR: public/v1
+          BATCH_SIZE: ${{ inputs.batch_size || '1000' }}
+        run: node scripts/fetch-descriptions.js
+
+      - name: Rebuild search indexes
+        run: node scripts/build-search-index.js
+
+      - name: Commit and push changes
+        run: |
+          git add public/v1 generated
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: fill missing descriptions - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
