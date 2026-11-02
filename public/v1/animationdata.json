@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1768,
-  "lastUpdate": "2026-11-01T21:59:55.469Z",
+  "totalItems": 1782,
+  "lastUpdate": "2026-11-02T01:28:27.109Z",
   "data": [
     {
       "id": 2623795,
@@ -49504,6 +49504,398 @@
         ],
         "7": [
           93467593734960
+        ]
+      }
+    },
+    {
+      "id": 200603135556956,
+      "name": "R6 Animation Pack",
+      "description": "Become R6 animated in any game!",
+      "bundledItems": {
+        "1": [
+          126665114340715
+        ],
+        "2": [
+          80146125284027
+        ],
+        "3": [
+          115830910033175
+        ],
+        "4": [
+          81169115016204
+        ],
+        "5": [
+          113528901135609
+        ],
+        "6": [
+          102675072072662
+        ],
+        "7": [
+          133295776853143
+        ]
+      }
+    },
+    {
+      "id": 99491138358030,
+      "name": "Gojo Walk Animation Pack",
+      "description": "I alone am the honored one...",
+      "bundledItems": {
+        "1": [
+          131253545364203
+        ],
+        "2": [
+          120618620556170
+        ],
+        "3": [
+          104387485457713
+        ],
+        "4": [
+          124572281700334
+        ],
+        "5": [
+          111863516376810
+        ],
+        "6": [
+          92732428042129
+        ],
+        "7": [
+          127708349658946
+        ]
+      }
+    },
+    {
+      "id": 214757689655640,
+      "name": "Yandere Animation Pack 2",
+      "description": "cute psycho yandere animation pack!",
+      "bundledItems": {
+        "1": [
+          139306849014165
+        ],
+        "2": [
+          91591084510175
+        ],
+        "3": [
+          124707623047134
+        ],
+        "4": [
+          130671664523352
+        ],
+        "5": [
+          104516857150550
+        ],
+        "6": [
+          123375911349584
+        ],
+        "7": [
+          93420513806206
+        ]
+      }
+    },
+    {
+      "id": 159928636794957,
+      "name": "Chill Biker Boy",
+      "description": "More UGC: https://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=Benere+%26+Chenere%27s+UGC&CreatorType=Group&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          81497427318431
+        ],
+        "2": [
+          111132824911957
+        ],
+        "3": [
+          132856485152915
+        ],
+        "4": [
+          86661750538145
+        ],
+        "5": [
+          137054353768764
+        ],
+        "6": [
+          134084532262084
+        ],
+        "7": [
+          103998053467056
+        ]
+      }
+    },
+    {
+      "id": 24953466228152,
+      "name": "Catwalk Glam + Vampire Animation Pack",
+      "description": "Glam by day, vampire by night.\n\nMore Animations: https://www.roblox.com/catalog?=whf6kUVBwk2xdwKUmRYN6G&CreatorName=Ghosted&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          95190409634387
+        ],
+        "2": [
+          133812570383453
+        ],
+        "3": [
+          73811959742735
+        ],
+        "4": [
+          105798726049931
+        ],
+        "5": [
+          93787489893050
+        ],
+        "6": [
+          125365722898047
+        ],
+        "7": [
+          137920377672945
+        ]
+      }
+    },
+    {
+      "id": 260664081287187,
+      "name": "Rick Prime With Portal Gun",
+      "description": "Also buy - https://www.roblox.com/catalog/80840926073223/Rick-s-Prime-Portal-Gun-GLOWS-R15-blocky\nfor full bundle!",
+      "bundledItems": {
+        "1": [
+          73757126031471
+        ],
+        "2": [
+          105534958249015
+        ],
+        "3": [
+          89928692891570
+        ],
+        "4": [
+          75224092785316
+        ],
+        "5": [
+          136269019649458
+        ],
+        "6": [
+          89276872918209
+        ],
+        "7": [
+          101407787615828
+        ]
+      }
+    },
+    {
+      "id": 844885675586,
+      "name": "Cute Shy Kawaii Chibi Doll",
+      "description": "Cute Shy Kawaii Chibi Doll",
+      "bundledItems": {
+        "1": [
+          103814569366818
+        ],
+        "2": [
+          98491521298888
+        ],
+        "3": [
+          89418193209549
+        ],
+        "4": [
+          123439948988012
+        ],
+        "5": [
+          107933537016868
+        ],
+        "6": [
+          119973425975047
+        ],
+        "7": [
+          88727050635713
+        ]
+      }
+    },
+    {
+      "id": 103042936187309,
+      "name": "Headless Community Animation Pack",
+      "description": "⭐Join our group for best animations!\nhttps://www.roblox.com/communities/619711098/Bara-Animations#!/store",
+      "bundledItems": {
+        "1": [
+          116324939359187
+        ],
+        "2": [
+          102784760316372
+        ],
+        "3": [
+          86539752745302
+        ],
+        "4": [
+          109275132547457
+        ],
+        "5": [
+          115649571482945
+        ],
+        "6": [
+          76828621855701
+        ],
+        "7": [
+          128882669398543
+        ]
+      }
+    },
+    {
+      "id": 50166700917907,
+      "name": "Headless",
+      "description": "Spooky!",
+      "bundledItems": {
+        "1": [
+          112089965388646
+        ],
+        "2": [
+          123493067379761
+        ],
+        "3": [
+          95924233151032
+        ],
+        "4": [
+          123570992768802
+        ],
+        "5": [
+          121630576016448
+        ],
+        "6": [
+          98878462969539
+        ],
+        "7": [
+          88466812725880
+        ]
+      }
+    },
+    {
+      "id": 225047111957927,
+      "name": "Hiding In The Barrel",
+      "description": "It is recommended to use blocky avatars or Roblox Boy type avatars\n\nAccessories required for this animation: https://www.roblox.com/catalog/83703726212052/Barrel-Waist\nhttps://www.roblox.com/catalog/139680262722996/Barrel-Lid-Hat",
+      "bundledItems": {
+        "1": [
+          129424881913661
+        ],
+        "2": [
+          87770369626451
+        ],
+        "3": [
+          123885473090467
+        ],
+        "4": [
+          82669922282979
+        ],
+        "5": [
+          94028354400381
+        ],
+        "6": [
+          89313827136933
+        ],
+        "7": [
+          87655262798402
+        ]
+      }
+    },
+    {
+      "id": 45276855426136,
+      "name": "R6 Floating Vampire",
+      "description": "R6 Vampire\n\nMore Animations in our group:\nhttps://www.roblox.com/communities/419906267/Super-Emotes#!/about",
+      "bundledItems": {
+        "1": [
+          88095826645234
+        ],
+        "2": [
+          86940704100088
+        ],
+        "3": [
+          89553316224325
+        ],
+        "4": [
+          70807823614643
+        ],
+        "5": [
+          106869555563341
+        ],
+        "6": [
+          77149567671737
+        ],
+        "7": [
+          74715790855338
+        ]
+      }
+    },
+    {
+      "id": 49927400813007,
+      "name": "R6 Zombie Reimagined Pack",
+      "description": "R6 Zombie Reimagined Pack\nReanimation of the Classic/Retro Zombie animations. *insert classic zombie groaning* \"OOOOOOUURUH!!\"\n\nUse with R6: https://www.roblox.com/bundles/150905042341171/R6\n\n\n\nby: https://www.roblox.com/users/607634211/profile",
+      "bundledItems": {
+        "1": [
+          101173841920480
+        ],
+        "2": [
+          71680752742229
+        ],
+        "3": [
+          95278737697717
+        ],
+        "4": [
+          132232434487928
+        ],
+        "5": [
+          107278074596843
+        ],
+        "6": [
+          133297250519650
+        ],
+        "7": [
+          124025254428734
+        ]
+      }
+    },
+    {
+      "id": 109728746517020,
+      "name": "Diva Baddie 3.0",
+      "description": "ANIMATED: Amanai\n\nSPECIAL CREDIT: DevCook",
+      "bundledItems": {
+        "1": [
+          123836866562683
+        ],
+        "2": [
+          81669444152674
+        ],
+        "3": [
+          98333009003037
+        ],
+        "4": [
+          132896643643658
+        ],
+        "5": [
+          83820568811341
+        ],
+        "6": [
+          88593264159326
+        ],
+        "7": [
+          118335451354551
+        ]
+      }
+    },
+    {
+      "id": 179626777104191,
+      "name": "Toy Animation",
+      "description": "🧸",
+      "bundledItems": {
+        "1": [
+          72636012062409
+        ],
+        "2": [
+          138895030458714
+        ],
+        "3": [
+          128418214083150
+        ],
+        "4": [
+          122261901365625
+        ],
+        "5": [
+          135954689113539
+        ],
+        "6": [
+          125674988256276
+        ],
+        "7": [
+          107772744888456
         ]
       }
     }
