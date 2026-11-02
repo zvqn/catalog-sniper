@@ -5,8 +5,9 @@ on:
     - cron: "0 * * * *"
   workflow_dispatch:
 
+# Shares a lock with the description workflow so the two never push at the same time.
 concurrency:
-  group: sniper-auto-update
+  group: sniper-data
   cancel-in-progress: false
 
 jobs:
@@ -14,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,13 +24,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          
+
       - name: Update catalog data
         run: DATA_DIR=public/v1 node main.js
-        
+
       - name: Normalize descriptions and rebuild search indexes
         run: node scripts/build-search-index.js
-        
+
       - name: Update API info
         run: |
           jq -n \
@@ -44,21 +45,21 @@ jobs:
               animations: { count: $animations, path: "/v1/animationdata.json" },
               moods:      { count: $moods,      path: "/v1/mooddata.json" }
             }' > public/v1/info.json
-            
+
       - name: Commit and push changes
         run: |
           git add public/v1 generated/search-indexes
-          
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: update catalog data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           git push
-          
+
       - name: Log results
         run: |
           for file in emotedata animationdata mooddata; do
