@@ -25,7 +25,7 @@ Every endpoint accepts these query parameters:
 | Parameter | Default | Description                                                      |
 | --------- | ------- | ---------------------------------------------------------------- |
 | `page`    | `1`     | Page number.                                                     |
-| `limit`   | `50`    | Results per page. The maximum is `200`.                          |
+| `limit`   | `50`    | Results per page. The maximum is `500`.                          |
 | `search`  | none    | Case-insensitive search across names and descriptions.           |
 
 Each result has an `id`, a `name`, and a `description`. If the source has no description, it is an empty string. Extra fields such as `bundledItems` and `custom` are kept as they are.
