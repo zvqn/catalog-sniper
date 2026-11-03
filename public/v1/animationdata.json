@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1806,
-  "lastUpdate": "2026-11-03T02:51:34.675Z",
+  "totalItems": 1809,
+  "lastUpdate": "2026-11-03T10:39:14.992Z",
   "data": [
     {
       "id": 2623795,
@@ -50568,6 +50568,90 @@
         ],
         "7": [
           109239021059604
+        ]
+      }
+    },
+    {
+      "id": 60761455061453,
+      "name": "R6 Divine Aura Animation Pack",
+      "description": "Divine Aura Animation Pack!!!",
+      "bundledItems": {
+        "1": [
+          139365680352327
+        ],
+        "2": [
+          80234230760665
+        ],
+        "3": [
+          91482716726937
+        ],
+        "4": [
+          102274071683702
+        ],
+        "5": [
+          84269249437896
+        ],
+        "6": [
+          80580689320241
+        ],
+        "7": [
+          92141696125966
+        ]
+      }
+    },
+    {
+      "id": 203711226591103,
+      "name": "👠 Sassy Glam Diva Baddie Model Runway Strut Walk",
+      "description": "⭐ High quality anim packs. Favorite for more and join group ⭐\nhttps://www.roblox.com/communities/327027635/Matvey-Animations#!/about",
+      "bundledItems": {
+        "1": [
+          110814228818746
+        ],
+        "2": [
+          96300580690095
+        ],
+        "3": [
+          125510630908126
+        ],
+        "4": [
+          109493813008372
+        ],
+        "5": [
+          126907066495822
+        ],
+        "6": [
+          93319338365544
+        ],
+        "7": [
+          103094510627390
+        ]
+      }
+    },
+    {
+      "id": 272390348537845,
+      "name": "Johnny Joestar with Tusk | JJBA",
+      "description": "Become Johnny Joestar with an animated Tusk Act 1!\n\nREQUIRED ITEMS:\nhttps://www.roblox.com/catalog/75996408061993/Tusk-Act-1\nhttps://www.roblox.com/bundles/18179309640027/R6",
+      "bundledItems": {
+        "1": [
+          103139530088083
+        ],
+        "2": [
+          86487221454256
+        ],
+        "3": [
+          72506394789336
+        ],
+        "4": [
+          95170750279295
+        ],
+        "5": [
+          77177845663470
+        ],
+        "6": [
+          135098871399450
+        ],
+        "7": [
+          128445146715835
         ]
       }
     }
