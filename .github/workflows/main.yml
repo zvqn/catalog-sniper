@@ -39,7 +39,7 @@ jobs:
             --argjson animations "$(jq .totalItems public/v1/animationdata.json)" \
             --argjson moods "$(jq .totalItems public/v1/mooddata.json)" \
             '{
-              version: "1.0.0",
+              version: "2.0.0",
               lastUpdate: $date,
               emotes:     { count: $emotes,     path: "/v1/emotedata.json" },
               animations: { count: $animations, path: "/v1/animationdata.json" },
