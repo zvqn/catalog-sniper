@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1821,
-  "lastUpdate": "2026-11-04T14:05:08.432Z",
+  "totalItems": 1823,
+  "lastUpdate": "2026-11-04T21:10:30.987Z",
   "data": [
     {
       "id": 2623795,
@@ -50988,6 +50988,62 @@
         ],
         "7": [
           71105159139852
+        ]
+      }
+    },
+    {
+      "id": 51288875593654,
+      "name": "Lord Verity Animation Pack",
+      "description": "Join our Community:\nhttps://www.roblox.com/communities/1108140139/Motion-Forge#!/about\n\nAnimated by: @TycoonFan43",
+      "bundledItems": {
+        "1": [
+          125565542773214
+        ],
+        "2": [
+          91168279955513
+        ],
+        "3": [
+          73583866207408
+        ],
+        "4": [
+          93355864892813
+        ],
+        "5": [
+          72133744712939
+        ],
+        "6": [
+          117655833380605
+        ],
+        "7": [
+          133813734061923
+        ]
+      }
+    },
+    {
+      "id": 132536883096878,
+      "name": "Zombie Animation Pack",
+      "description": "⭐ More Packs: https://www.roblox.com/communities/66034901/Peak-Animation-Packs#!/store",
+      "bundledItems": {
+        "1": [
+          137623119635304
+        ],
+        "2": [
+          129103368116859
+        ],
+        "3": [
+          86063210667619
+        ],
+        "4": [
+          91718607137863
+        ],
+        "5": [
+          72645566867506
+        ],
+        "6": [
+          71785463081873
+        ],
+        "7": [
+          139064306072401
         ]
       }
     }
