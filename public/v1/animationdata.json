@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1820,
-  "lastUpdate": "2026-11-04T05:38:12.415Z",
+  "totalItems": 1821,
+  "lastUpdate": "2026-11-04T11:56:39.703Z",
   "data": [
     {
       "id": 2623795,
@@ -50960,6 +50960,34 @@
         ],
         "7": [
           79302642246158
+        ]
+      }
+    },
+    {
+      "id": 231172284101996,
+      "name": "Realistic Male 02",
+      "description": "Join our Community: \nhttps://www.roblox.com/communities/969306563/MocapAnimations#!/about\n\nA realistic male animation pack featuring natural movement, rap-inspired idle poses, and smooth, stylish animations for everyday gameplay.",
+      "bundledItems": {
+        "1": [
+          95540084177042
+        ],
+        "2": [
+          110090173254104
+        ],
+        "3": [
+          128159291951569
+        ],
+        "4": [
+          107847031588495
+        ],
+        "5": [
+          76006341766274
+        ],
+        "6": [
+          98458712257989
+        ],
+        "7": [
+          71105159139852
         ]
       }
     }
