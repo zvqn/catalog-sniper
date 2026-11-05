@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1834,
-  "lastUpdate": "2026-11-05T02:06:36.008Z",
+  "totalItems": 1838,
+  "lastUpdate": "2026-11-05T10:35:34.665Z",
   "data": [
     {
       "id": 2623795,
@@ -51352,6 +51352,118 @@
         ],
         "7": [
           112409830752778
+        ]
+      }
+    },
+    {
+      "id": 113856436891577,
+      "name": "Cute Ley Anime Yandere Girl",
+      "description": "More animations packs here: \nhttps://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=ANIMATION+BUNDLES+FOR+YOU&CreatorType=Group&salesTypeFilter=1&SortType=3",
+      "bundledItems": {
+        "1": [
+          117091255012593
+        ],
+        "2": [
+          112250701329224
+        ],
+        "3": [
+          75080583752043
+        ],
+        "4": [
+          118695800157494
+        ],
+        "5": [
+          87511979225792
+        ],
+        "6": [
+          101420013816498
+        ],
+        "7": [
+          85846733662107
+        ]
+      }
+    },
+    {
+      "id": 50855954717611,
+      "name": "Godly Flying Aura Animation Pack",
+      "description": "Flying Aura Animation Pack",
+      "bundledItems": {
+        "1": [
+          72415998033552
+        ],
+        "2": [
+          111468339434633
+        ],
+        "3": [
+          138474468712082
+        ],
+        "4": [
+          130864172041078
+        ],
+        "5": [
+          105625242184971
+        ],
+        "6": [
+          117959834185570
+        ],
+        "7": [
+          117122356963979
+        ]
+      }
+    },
+    {
+      "id": 116312571965753,
+      "name": "Kawaii Whimsy Cute Happy Girl",
+      "description": "More animations packs here: \nhttps://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=ANIMATION+BUNDLES+FOR+YOU&CreatorType=Group&salesTypeFilter=1&SortType=3",
+      "bundledItems": {
+        "1": [
+          86507899170650
+        ],
+        "2": [
+          115502321192827
+        ],
+        "3": [
+          130390748578068
+        ],
+        "4": [
+          85119072648997
+        ],
+        "5": [
+          93258396756242
+        ],
+        "6": [
+          128765792682959
+        ],
+        "7": [
+          77090506159285
+        ]
+      }
+    },
+    {
+      "id": 236905295485445,
+      "name": "Withered Foxy FNAF Animation Pack",
+      "description": "Join our UGC group and leave a suggestion!",
+      "bundledItems": {
+        "1": [
+          138185597181198
+        ],
+        "2": [
+          133622749297169
+        ],
+        "3": [
+          98561157088813
+        ],
+        "4": [
+          81604414857508
+        ],
+        "5": [
+          118018775998277
+        ],
+        "6": [
+          85767741130430
+        ],
+        "7": [
+          106374655526256
         ]
       }
     }
