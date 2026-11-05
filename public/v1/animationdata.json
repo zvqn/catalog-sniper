@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1838,
-  "lastUpdate": "2026-11-05T10:35:34.665Z",
+  "totalItems": 1842,
+  "lastUpdate": "2026-11-05T18:38:21.860Z",
   "data": [
     {
       "id": 2623795,
@@ -51464,6 +51464,118 @@
         ],
         "7": [
           106374655526256
+        ]
+      }
+    },
+    {
+      "id": 251063541758895,
+      "name": "R6 Korblox one Leg",
+      "description": "Favorite for more✨ \nBest Animations Here: https://www.roblox.com/communities/236917873/Motion-Craft-UGC#!/store",
+      "bundledItems": {
+        "1": [
+          100035073852897
+        ],
+        "2": [
+          80026855928335
+        ],
+        "3": [
+          119982386250475
+        ],
+        "4": [
+          95886321406845
+        ],
+        "5": [
+          115956181887531
+        ],
+        "6": [
+          112606764145216
+        ],
+        "7": [
+          127007921143223
+        ]
+      }
+    },
+    {
+      "id": 41266388335808,
+      "name": "🦊 Cute Fox Furry Kitsune Animation Pack",
+      "description": "⭐ Favorite for more!\n\nMore animations and emotes: https://www.roblox.com/communities/586420173/t4",
+      "bundledItems": {
+        "1": [
+          134258853448540
+        ],
+        "2": [
+          80519320763874
+        ],
+        "3": [
+          126965785957048
+        ],
+        "4": [
+          135258993731078
+        ],
+        "5": [
+          130960775020564
+        ],
+        "6": [
+          108053513558875
+        ],
+        "7": [
+          137078857351676
+        ]
+      }
+    },
+    {
+      "id": 60726319916393,
+      "name": "Sleepy Zombie Pack",
+      "description": "⭐ More Packs: https://www.roblox.com/communities/66034901/Peak-Animation-Packs#!/store",
+      "bundledItems": {
+        "1": [
+          137720158832874
+        ],
+        "2": [
+          81240930230681
+        ],
+        "3": [
+          86107264248016
+        ],
+        "4": [
+          129367375353255
+        ],
+        "5": [
+          139459507370649
+        ],
+        "6": [
+          138483768643714
+        ],
+        "7": [
+          83222549575021
+        ]
+      }
+    },
+    {
+      "id": 149342254147577,
+      "name": "R6 Bouncy Chill Nonchalant Boy",
+      "description": "Join the group!",
+      "bundledItems": {
+        "1": [
+          121829226724937
+        ],
+        "2": [
+          116218303254747
+        ],
+        "3": [
+          73701209780673
+        ],
+        "4": [
+          105378903762076
+        ],
+        "5": [
+          73630449222722
+        ],
+        "6": [
+          88325093593030
+        ],
+        "7": [
+          128744226951177
         ]
       }
     }
