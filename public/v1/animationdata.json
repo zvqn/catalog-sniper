@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1842,
-  "lastUpdate": "2026-11-05T18:38:21.860Z",
+  "totalItems": 1844,
+  "lastUpdate": "2026-11-06T00:00:48.305Z",
   "data": [
     {
       "id": 2623795,
@@ -51576,6 +51576,62 @@
         ],
         "7": [
           128744226951177
+        ]
+      }
+    },
+    {
+      "id": 169251621614542,
+      "name": "R6 Zombie Pack",
+      "description": "⭐ More Animation Packs: https://www.roblox.com/communities/729183618/R15-Animation-Packs#!/store",
+      "bundledItems": {
+        "1": [
+          72719794194179
+        ],
+        "2": [
+          125339474453761
+        ],
+        "3": [
+          135199834416800
+        ],
+        "4": [
+          110748967421203
+        ],
+        "5": [
+          114482358846415
+        ],
+        "6": [
+          115618859427553
+        ],
+        "7": [
+          93335483602016
+        ]
+      }
+    },
+    {
+      "id": 192681254259155,
+      "name": "Infinite Aura Floating Pack",
+      "description": "⭐ More Packs: https://www.roblox.com/communities/66034901/Peak-Animation-Packs#!/store",
+      "bundledItems": {
+        "1": [
+          85307317299221
+        ],
+        "2": [
+          139892673169280
+        ],
+        "3": [
+          131108548973659
+        ],
+        "4": [
+          127658225585320
+        ],
+        "5": [
+          137127826090470
+        ],
+        "6": [
+          90413772202433
+        ],
+        "7": [
+          114329969061106
         ]
       }
     }
