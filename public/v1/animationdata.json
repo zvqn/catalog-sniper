@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1849,
-  "lastUpdate": "2026-11-06T06:25:17.249Z",
+  "totalItems": 1851,
+  "lastUpdate": "2026-11-06T14:54:43.915Z",
   "data": [
     {
       "id": 2623795,
@@ -51772,6 +51772,62 @@
         ],
         "7": [
           97722405258580
+        ]
+      }
+    },
+    {
+      "id": 160705418786195,
+      "name": "General Astro Boombox Titan 3.0 Animation Pack",
+      "description": "🔊General Boombox:🔊\n\n⭐Head:\n\nhttps://www.roblox.com/catalog/95444144398591/General-Boombox-Titan-3-0-Reworked-Head-Glow\n\n⭐Core:\n\nhttps://www.roblox.com/catalog/85775027211852/Red-v2-Upgraded-Boombox-General-Titan-Core-Glow\n\n⭐Blaster:\n\nhttps://www.roblox.com/catalog/131582557953036/Left-General-Boombox-Ast-Juggy-Blaster-Ring-v2\n\n⭐Belt:\n\nhttps://www.roblox.com/catalog/115904159948808/General-Boombox-Titan-3-0-Reworked-Belt-Glow\n\n⭐Back Ring:\n\nhttps://www.roblox.com/catalog/137944499829423/Boombox-Titan-3-0-Energy-Ring-Speakers-v3-Glow\n\n⭐Leg Rings:\n\nhttps://www.roblox.com/catalog/97246607193366/Leg-Dual-Energy-Rings-General-Boombox-Titan-v3\n\n⭐Animation Pack:\n\nhttps://www.roblox.com/bundles/160705418786195/General-Astro-Boombox-Titan-3-0-Animation-Pack\n\n⭐Torch:\n\nhttps://www.roblox.com/catalog/116953937079836/Right-Red-Holdable-General-Boombox-Torch-v2\n\n🔥Variants R6 & Clothing In Group🔥\n\n✅ Favorite for support ✅",
+      "bundledItems": {
+        "1": [
+          97609425245743
+        ],
+        "2": [
+          83288328224649
+        ],
+        "3": [
+          82676703489718
+        ],
+        "4": [
+          113867158168574
+        ],
+        "5": [
+          140506341142372
+        ],
+        "6": [
+          103737488987220
+        ],
+        "7": [
+          113063260114453
+        ]
+      }
+    },
+    {
+      "id": 249100444715710,
+      "name": "Jotaro Jojo Animation Pack",
+      "description": "More Jotaro UGC: https://www.roblox.com/catalog?Keyword=Jotaro&taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=Benere+%26+Chenere%27s+UGC&CreatorType=Group&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          92883235513581
+        ],
+        "2": [
+          107733938306246
+        ],
+        "3": [
+          118070939457409
+        ],
+        "4": [
+          111275681956878
+        ],
+        "5": [
+          134305657928484
+        ],
+        "6": [
+          75384982493358
+        ],
+        "7": [
+          81127024518716
         ]
       }
     }
