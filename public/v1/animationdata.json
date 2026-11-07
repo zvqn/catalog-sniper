@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1879,
-  "lastUpdate": "2026-11-07T13:51:29.212Z",
+  "totalItems": 1880,
+  "lastUpdate": "2026-11-07T18:35:02.680Z",
   "data": [
     {
       "id": 2623795,
@@ -52612,6 +52612,34 @@
         ],
         "7": [
           123924549855851
+        ]
+      }
+    },
+    {
+      "id": 48803537777435,
+      "name": "🎄 Christmas Gingerbread Man",
+      "description": "More animations packs here: \nhttps://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=ANIMATION+BUNDLES+FOR+YOU&CreatorType=Group&salesTypeFilter=1&SortType=3",
+      "bundledItems": {
+        "1": [
+          88192793436415
+        ],
+        "2": [
+          139653296602403
+        ],
+        "3": [
+          77765353543057
+        ],
+        "4": [
+          84953226653325
+        ],
+        "5": [
+          82872556774706
+        ],
+        "6": [
+          83038588748060
+        ],
+        "7": [
+          84561915841230
         ]
       }
     }
