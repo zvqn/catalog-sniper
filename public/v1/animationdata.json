@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1896,
-  "lastUpdate": "2026-11-08T10:01:08.629Z",
+  "totalItems": 1900,
+  "lastUpdate": "2026-11-08T16:39:27.560Z",
   "data": [
     {
       "id": 2623795,
@@ -53088,6 +53088,118 @@
         ],
         "7": [
           140376764541702
+        ]
+      }
+    },
+    {
+      "id": 241687002154496,
+      "name": "R6 Arms Crossed",
+      "description": "Arms Crossed Aura Farming R6\n\nMore Animations in our group:\nhttps://www.roblox.com/communities/419906267/Super-Emotes#!/about",
+      "bundledItems": {
+        "1": [
+          80563287080753
+        ],
+        "2": [
+          85164765307348
+        ],
+        "3": [
+          114891575916968
+        ],
+        "4": [
+          105808321709273
+        ],
+        "5": [
+          81874226707117
+        ],
+        "6": [
+          128355884455212
+        ],
+        "7": [
+          129955631392551
+        ]
+      }
+    },
+    {
+      "id": 166431326287562,
+      "name": "Toy Animation Pack",
+      "description": "Make sure to Favorite! ⭐️\n\nMore in group:\nhttps://www.roblox.com/communities/501768510/xm#!/about\n\nTags: shy, needy, kawaii, nervous, elder, astronaut, popular, werewolf, headless, cute, mini, chibi, no head, cheap, Zombie, Ninja, toy, mage, vampire, levitation, mm2, WS10, dahood, ekitten, vamp, niche, cute, tryhard aura, god, brainrot",
+      "bundledItems": {
+        "1": [
+          135852925250152
+        ],
+        "2": [
+          97810834516900
+        ],
+        "3": [
+          136572832015803
+        ],
+        "4": [
+          104776649010702
+        ],
+        "5": [
+          111207288884059
+        ],
+        "6": [
+          103662330843366
+        ],
+        "7": [
+          101351097579320
+        ]
+      }
+    },
+    {
+      "id": 98332904752784,
+      "name": "Cute Kawaii Shy Bouncy Chibi",
+      "description": "⭐Join Group and Favourite for More Animation Packs⭐\nhttps://www.roblox.com/communities/979106794/spyda#!/about",
+      "bundledItems": {
+        "1": [
+          97522933669938
+        ],
+        "2": [
+          132426462864849
+        ],
+        "3": [
+          82622622426752
+        ],
+        "4": [
+          117590885690538
+        ],
+        "5": [
+          99568689848155
+        ],
+        "6": [
+          115057138511904
+        ],
+        "7": [
+          128553318730791
+        ]
+      }
+    },
+    {
+      "id": 1762744107408,
+      "name": "Sleepy Tired Zombie",
+      "description": "Tired Sleepy Zombie Animation Pack",
+      "bundledItems": {
+        "1": [
+          79861526944849
+        ],
+        "2": [
+          117632773280130
+        ],
+        "3": [
+          107497581939872
+        ],
+        "4": [
+          86885695986559
+        ],
+        "5": [
+          124489126418970
+        ],
+        "6": [
+          140554832911726
+        ],
+        "7": [
+          71989358817136
         ]
       }
     }
