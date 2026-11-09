@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1907,
-  "lastUpdate": "2026-11-09T00:48:27.588Z",
+  "totalItems": 1911,
+  "lastUpdate": "2026-11-09T07:48:29.469Z",
   "data": [
     {
       "id": 2623795,
@@ -53396,6 +53396,118 @@
         ],
         "7": [
           101753986030244
+        ]
+      }
+    },
+    {
+      "id": 112020331656217,
+      "name": "Christmas Elf Santa Helper",
+      "description": "Santa's little helper\n\nCheck out more: https://www.roblox.com/communities/518464217/TaleOfScriptings-UGC#!/store",
+      "bundledItems": {
+        "1": [
+          123116243868521
+        ],
+        "2": [
+          89405911912436
+        ],
+        "3": [
+          82517957187080
+        ],
+        "4": [
+          75286832040119
+        ],
+        "5": [
+          130261618649583
+        ],
+        "6": [
+          115374699149500
+        ],
+        "7": [
+          113123288608489
+        ]
+      }
+    },
+    {
+      "id": 38621171979519,
+      "name": "R6 Plague Doctor SCP - 049 Animation Pack",
+      "description": "Join our Community:\nhttps://www.roblox.com/communities/1108140139/Motion-Forge#!/about\n\nAnimated by: @TycoonFan43",
+      "bundledItems": {
+        "1": [
+          78297927366581
+        ],
+        "2": [
+          140509630235791
+        ],
+        "3": [
+          82479552088661
+        ],
+        "4": [
+          101792740808104
+        ],
+        "5": [
+          81425187572658
+        ],
+        "6": [
+          100908285878548
+        ],
+        "7": [
+          115028229016864
+        ]
+      }
+    },
+    {
+      "id": 142634580074703,
+      "name": "Super Shy Embarrassed Pack",
+      "description": "⭐ Favorite for cheaper!",
+      "bundledItems": {
+        "1": [
+          116956909929794
+        ],
+        "2": [
+          94393786753018
+        ],
+        "3": [
+          114085897190621
+        ],
+        "4": [
+          75382892624441
+        ],
+        "5": [
+          88359571533769
+        ],
+        "6": [
+          130019916938846
+        ],
+        "7": [
+          113563156455509
+        ]
+      }
+    },
+    {
+      "id": 278840175224214,
+      "name": "Cute Christmas Jolly Animation Pack",
+      "description": "Join our animations group and leave a suggestion!",
+      "bundledItems": {
+        "1": [
+          113112588145197
+        ],
+        "2": [
+          93520892952982
+        ],
+        "3": [
+          89380464594244
+        ],
+        "4": [
+          125797495524867
+        ],
+        "5": [
+          119457820954531
+        ],
+        "6": [
+          79295377687142
+        ],
+        "7": [
+          82261977100530
         ]
       }
     }
