@@ -1,12 +1,12 @@
 {
   "version": "2.0.0",
-  "lastUpdate": "2026-11-08T21:02:43.000Z",
+  "lastUpdate": "2026-11-09T00:49:16.000Z",
   "emotes": {
-    "count": 55518,
+    "count": 55534,
     "path": "/v1/emotedata.json"
   },
   "animations": {
-    "count": 1902,
+    "count": 1907,
     "path": "/v1/animationdata.json"
   },
   "moods": {
