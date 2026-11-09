@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1911,
-  "lastUpdate": "2026-11-09T07:48:29.469Z",
+  "totalItems": 1912,
+  "lastUpdate": "2026-11-09T18:36:13.098Z",
   "data": [
     {
       "id": 2623795,
@@ -53508,6 +53508,34 @@
         ],
         "7": [
           82261977100530
+        ]
+      }
+    },
+    {
+      "id": 50844371524298,
+      "name": "Horror Glitch Corrupted Broken Animation Pack",
+      "description": "⭐ High quality anim packs. Favorite for more and join group ⭐\nhttps://www.roblox.com/communities/327027635/Matvey-Animations#!/about",
+      "bundledItems": {
+        "1": [
+          134067007437838
+        ],
+        "2": [
+          137419466476699
+        ],
+        "3": [
+          76094165362712
+        ],
+        "4": [
+          83948191244411
+        ],
+        "5": [
+          101651182596078
+        ],
+        "6": [
+          77912257276065
+        ],
+        "7": [
+          80258696592136
         ]
       }
     }
