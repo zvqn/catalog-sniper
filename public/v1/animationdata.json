@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1925,
-  "lastUpdate": "2026-11-11T02:46:02.558Z",
+  "totalItems": 1929,
+  "lastUpdate": "2026-11-11T10:35:16.245Z",
   "data": [
     {
       "id": 2623795,
@@ -53900,6 +53900,118 @@
         ],
         "7": [
           77778773114212
+        ]
+      }
+    },
+    {
+      "id": 205402870390013,
+      "name": "Garry's Mod / GMod Crowbar",
+      "description": "Garry's Mod / GMod Animation Pack\n\nGarry's Mod Fists: https://www.roblox.com/bundles/264791276276794/Garrys-Mod-GMod-Fists\nGarry's Mod Hands: https://www.roblox.com/bundles/190971451946029/Garrys-Mod-GMod-Hands\nMore: https://www.roblox.com/catalog?Category=1&CreatorName=KarRealll&salesTypeFilter=1 (Any future bundles will be here)\n\nFAVORITE FOR MORE",
+      "bundledItems": {
+        "1": [
+          125986862577482
+        ],
+        "2": [
+          96556213704265
+        ],
+        "3": [
+          102506922965996
+        ],
+        "4": [
+          123922567941151
+        ],
+        "5": [
+          81887013001896
+        ],
+        "6": [
+          98050401143716
+        ],
+        "7": [
+          138582793682458
+        ]
+      }
+    },
+    {
+      "id": 161375652284017,
+      "name": "Shadow Hedgehog Adventure Animation Pack",
+      "description": "More Sonic Anim Packs:\n\nhttps://www.roblox.com/catalog?Keyword=Ring+Runner+Hedgehog+Blur+Ultimate&taxonomy=whf6kUVBwk2xdwKUmRYN6G&CreatorName=AvatarVerse&salesTypeFilter=1\n\nANIMATED: Simples + Amanai",
+      "bundledItems": {
+        "1": [
+          112303707067727
+        ],
+        "2": [
+          79474918918634
+        ],
+        "3": [
+          108303958823250
+        ],
+        "4": [
+          107456354800632
+        ],
+        "5": [
+          132176330813595
+        ],
+        "6": [
+          140310893613736
+        ],
+        "7": [
+          117935844019655
+        ]
+      }
+    },
+    {
+      "id": 204236175794154,
+      "name": "1:1 May 2014 R6 Animations Pack",
+      "description": "A 1:1 version of the R6 animations seen for only 2 hours in May 2014. These have now been found and I have made a faithful version of the pack.\n\n(The Run and Climb is the only thing that changed with this animation, aside from that, most of the animations is the original 2014 idle, jump, fall and swim.)",
+      "bundledItems": {
+        "1": [
+          75107235796046
+        ],
+        "2": [
+          96592372268571
+        ],
+        "3": [
+          127921216562003
+        ],
+        "4": [
+          97575826635384
+        ],
+        "5": [
+          123661331403707
+        ],
+        "6": [
+          86587418583030
+        ],
+        "7": [
+          87474188282942
+        ]
+      }
+    },
+    {
+      "id": 270693123954567,
+      "name": "Leon S Kennedy v2 - Resident Evil Requiem",
+      "description": "UNNECESSARY BACKFLIPS\n\nOriginal version: https://www.roblox.com/bundles/252956282943885/Leon-S-Kennedy-Resident-Evil-Requiem\n\nResident Evil Requiem\n\nThis is literally Leon's animations and movement on roblox!\n\nHand animated using the original game's animations extracted for reference, nearly a 1:1 translated to Roblox. The swim/swim idle/climb are from GTA\n\nAnimated: Mith",
+      "bundledItems": {
+        "1": [
+          96117886957701
+        ],
+        "2": [
+          114354927309943
+        ],
+        "3": [
+          109887199150140
+        ],
+        "4": [
+          72933814079434
+        ],
+        "5": [
+          115229903753088
+        ],
+        "6": [
+          95340165165057
+        ],
+        "7": [
+          112347840318990
         ]
       }
     }
