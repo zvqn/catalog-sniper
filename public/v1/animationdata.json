@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1922,
-  "lastUpdate": "2026-11-10T23:02:16.759Z",
+  "totalItems": 1925,
+  "lastUpdate": "2026-11-11T02:46:02.558Z",
   "data": [
     {
       "id": 2623795,
@@ -53816,6 +53816,90 @@
         ],
         "7": [
           140102663512288
+        ]
+      }
+    },
+    {
+      "id": 223851885815121,
+      "name": "The Seek Doors Animation Pack [HOTEL]",
+      "description": "🎃FIND MORE UGC IN OUR GROUP: https://www.roblox.com/communities/782832089/Prime-Animation-Packs#!/about\n\nDoors, Seek, Hotel, Doorsman, Evil Seek",
+      "bundledItems": {
+        "1": [
+          115694762983669
+        ],
+        "2": [
+          122543486654564
+        ],
+        "3": [
+          80714966203914
+        ],
+        "4": [
+          133985886813247
+        ],
+        "5": [
+          96499409819432
+        ],
+        "6": [
+          88774226467408
+        ],
+        "7": [
+          81796865760431
+        ]
+      }
+    },
+    {
+      "id": 97746550142438,
+      "name": "Jedi Knight Animation Pack (Star Wars)",
+      "description": "⭐Works with Right Hand Lightsabers and Swords!⭐\nJoin the group for more Animation Bundles!\nhttps://www.roblox.com/share/g/1043534831\n\n\n\n\n\nTags: star wars, jedi, sith, empire, republic, galactic, anakin, luke, skywalker, ahsoka tano, darth vader, kylo ren, obi-wan kenobi, emperor, lord, master, grandmaster, yoda, 1.0, sword, blade, longsword, greatsword, rapier, righthand, action, combat, fight, fighting",
+      "bundledItems": {
+        "1": [
+          77429533739657
+        ],
+        "2": [
+          92495028390434
+        ],
+        "3": [
+          90508966232071
+        ],
+        "4": [
+          89372186408310
+        ],
+        "5": [
+          98192857636333
+        ],
+        "6": [
+          82725022111423
+        ],
+        "7": [
+          115300116452097
+        ]
+      }
+    },
+    {
+      "id": 1593160260659,
+      "name": "diving man",
+      "description": "become a diving man\n\noutfit code F5574F, F5570A , and F5579B in catalog avatar creator",
+      "bundledItems": {
+        "1": [
+          131769931171815
+        ],
+        "2": [
+          121763201441459
+        ],
+        "3": [
+          114045332961350
+        ],
+        "4": [
+          81268267771354
+        ],
+        "5": [
+          111529270199618
+        ],
+        "6": [
+          95131412029274
+        ],
+        "7": [
+          77778773114212
         ]
       }
     }
