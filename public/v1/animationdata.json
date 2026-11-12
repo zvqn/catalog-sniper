@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1940,
-  "lastUpdate": "2026-11-12T18:02:25.475Z",
+  "totalItems": 1941,
+  "lastUpdate": "2026-11-12T23:33:05.618Z",
   "data": [
     {
       "id": 2623795,
@@ -54320,6 +54320,34 @@
         ],
         "7": [
           88888797456815
+        ]
+      }
+    },
+    {
+      "id": 37485655604923,
+      "name": "GTA V Female Animation Pack",
+      "description": "Female animations from Grand Theft Auto V.\n\n➡️ Join our group for more animation packs like this! https://www.roblox.com/communities/930425603\n\nHand animated using the original game's animations for reference.\n\ngta, gta6, lucia, jason, franklin, trevor, michael, realistic, realism, female",
+      "bundledItems": {
+        "1": [
+          140045833512244
+        ],
+        "2": [
+          128112301503325
+        ],
+        "3": [
+          86089636063992
+        ],
+        "4": [
+          75332949547160
+        ],
+        "5": [
+          93549720923114
+        ],
+        "6": [
+          115446417467903
+        ],
+        "7": [
+          107829754658502
         ]
       }
     }
