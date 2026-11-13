@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1947,
-  "lastUpdate": "2026-11-13T05:54:24.170Z",
+  "totalItems": 1948,
+  "lastUpdate": "2026-11-13T14:20:21.948Z",
   "data": [
     {
       "id": 2623795,
@@ -54516,6 +54516,34 @@
         ],
         "7": [
           116929364444448
+        ]
+      }
+    },
+    {
+      "id": 201882187285038,
+      "name": "Doctor Doom Animation Pack",
+      "description": "Join our Community:\nhttps://www.roblox.com/communities/1108140139/Motion-Forge#!/about\n\nAnimated by: @TycoonFan43",
+      "bundledItems": {
+        "1": [
+          92685119151677
+        ],
+        "2": [
+          99906292999051
+        ],
+        "3": [
+          98857663997367
+        ],
+        "4": [
+          107060562723583
+        ],
+        "5": [
+          99933979601013
+        ],
+        "6": [
+          114257203601426
+        ],
+        "7": [
+          114407091990442
         ]
       }
     }
