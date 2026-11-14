@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1967,
-  "lastUpdate": "2026-11-14T16:32:17.022Z",
+  "totalItems": 1969,
+  "lastUpdate": "2026-11-14T21:15:48.898Z",
   "data": [
     {
       "id": 2623795,
@@ -55076,6 +55076,62 @@
         ],
         "7": [
           105281916831192
+        ]
+      }
+    },
+    {
+      "id": 269472519464072,
+      "name": "R6 Daydream Animation Pack",
+      "description": "Daydream Animation Pack!!!",
+      "bundledItems": {
+        "1": [
+          81995581594377
+        ],
+        "2": [
+          110150565301217
+        ],
+        "3": [
+          78590325298791
+        ],
+        "4": [
+          125358429084780
+        ],
+        "5": [
+          135731059077890
+        ],
+        "6": [
+          108992469168408
+        ],
+        "7": [
+          116490401509178
+        ]
+      }
+    },
+    {
+      "id": 220601768758348,
+      "name": "Vibing + Ninja Animation Pack",
+      "description": "Vibing in the shadows.\n\nMore Animations: https://www.roblox.com/catalog?=whf6kUVBwk2xdwKUmRYN6G&CreatorName=Ghosted&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          126709542706353
+        ],
+        "2": [
+          104022220761316
+        ],
+        "3": [
+          85866597484099
+        ],
+        "4": [
+          82201177914000
+        ],
+        "5": [
+          134480196635740
+        ],
+        "6": [
+          91995685790247
+        ],
+        "7": [
+          97696075083432
         ]
       }
     }
