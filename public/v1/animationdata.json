@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1973,
-  "lastUpdate": "2026-11-15T16:17:54.944Z",
+  "totalItems": 1976,
+  "lastUpdate": "2026-11-15T21:35:17.677Z",
   "data": [
     {
       "id": 2623795,
@@ -55244,6 +55244,90 @@
         ],
         "7": [
           102731065152192
+        ]
+      }
+    },
+    {
+      "id": 248701217064654,
+      "name": "R6 Animated Cyber Visor Animation Pack",
+      "description": "Get The VISOR AND EYES Here:\nhttps://www.roblox.com/catalog/136632591232416/Cyber-Visor (Visor)\nhttps://www.roblox.com/catalog/122936510189477/Cyber-Eye-R (Right Eye)\nhttps://www.roblox.com/catalog/130946177854653/Cyber-Eye-L (Left Eye)\n\nR6 CONVERSOR\nhttps://www.roblox.com/bundles/34852431243411/R6\n\nEQUIP EVERY ITEM TO GET YOUR CYBER VISOR WORKING!\n\n(If you're on your phone, tap the group name (Move Bricks S.), go to the store, and look for your item!)\n-------------------------------------------------------------------------------------------------------------------------------\n\nFIND MORE UNIQUE ITEMS WITH ANIMATIONS HERE:\nhttps://www.roblox.com/communities/225787486/Move-Bricks-Studio#!/store\n\nFuturistic Animated Eyes Pack featuring smooth eye movements for Robot, Android and Cyberpunk Avatars. Perfect for LED Face, Digital Eyes, Robotic Expressions, Sci-Fi Characters, Cyber Visors, Mechanical Faces and Futuristic Avatar Animations",
+      "bundledItems": {
+        "1": [
+          133275433363759
+        ],
+        "2": [
+          140532834626233
+        ],
+        "3": [
+          75708905926027
+        ],
+        "4": [
+          136715362917268
+        ],
+        "5": [
+          118480284533252
+        ],
+        "6": [
+          83957294247218
+        ],
+        "7": [
+          97441292851414
+        ]
+      }
+    },
+    {
+      "id": 214251176059162,
+      "name": "Headless",
+      "description": "⭐Join our group for more!",
+      "bundledItems": {
+        "1": [
+          140229032920917
+        ],
+        "2": [
+          132050129823984
+        ],
+        "3": [
+          127419243494849
+        ],
+        "4": [
+          95567377622366
+        ],
+        "5": [
+          97988663622639
+        ],
+        "6": [
+          126342871917049
+        ],
+        "7": [
+          83431450715710
+        ]
+      }
+    },
+    {
+      "id": 116409600704149,
+      "name": "Cute Christmas Wave Pack 🎄",
+      "description": "⭐ More Animation Packs: https://www.roblox.com/communities/729183618/R15-Animation-Packs#!/store",
+      "bundledItems": {
+        "1": [
+          76540491114039
+        ],
+        "2": [
+          139224506858184
+        ],
+        "3": [
+          132760378890780
+        ],
+        "4": [
+          78081135412958
+        ],
+        "5": [
+          113708166850710
+        ],
+        "6": [
+          113055358101854
+        ],
+        "7": [
+          125576133910454
         ]
       }
     }
