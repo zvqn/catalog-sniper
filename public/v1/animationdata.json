@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1984,
-  "lastUpdate": "2026-11-16T09:16:25.430Z",
+  "totalItems": 1988,
+  "lastUpdate": "2026-11-16T20:10:24.269Z",
   "data": [
     {
       "id": 2623795,
@@ -55552,6 +55552,118 @@
         ],
         "7": [
           92945691844395
+        ]
+      }
+    },
+    {
+      "id": 223187279687308,
+      "name": "Needy Cute Jiggy Angry Tsundere",
+      "description": "🔗 More Items: https://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=StarLace&CreatorType=Group&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          105539595693523
+        ],
+        "2": [
+          137633505971402
+        ],
+        "3": [
+          135856063375021
+        ],
+        "4": [
+          119249914571280
+        ],
+        "5": [
+          70913162656692
+        ],
+        "6": [
+          125648566185948
+        ],
+        "7": [
+          108345592080462
+        ]
+      }
+    },
+    {
+      "id": 231911680269096,
+      "name": "Cute Kawaii Doll Animation Pack",
+      "description": "more in maki salon",
+      "bundledItems": {
+        "1": [
+          107048868944332
+        ],
+        "2": [
+          73648418743410
+        ],
+        "3": [
+          85160633008953
+        ],
+        "4": [
+          90201952895962
+        ],
+        "5": [
+          107252952782297
+        ],
+        "6": [
+          86532875228644
+        ],
+        "7": [
+          88041353874381
+        ]
+      }
+    },
+    {
+      "id": 202903873365613,
+      "name": "Santa Sleigh Animation Pack [COMBO ITEM]",
+      "description": "🛷 Complete the combo with “Santa Sleigh & Reindeer” for the full sleigh-riding look:\nhttps://www.roblox.com/catalog/120273182256531\n\n⭐ More Animation Packs: https://www.roblox.com/communities/729183618/R15-Animation-Packs#!/store",
+      "bundledItems": {
+        "1": [
+          70656834404766
+        ],
+        "2": [
+          76094171954714
+        ],
+        "3": [
+          126148038632508
+        ],
+        "4": [
+          109407345527114
+        ],
+        "5": [
+          71409289978811
+        ],
+        "6": [
+          101751504635728
+        ],
+        "7": [
+          136926846562565
+        ]
+      }
+    },
+    {
+      "id": 110134116148730,
+      "name": "Cute Chibi Sit",
+      "description": "Best in 3.0\nCute Chibi Sit",
+      "bundledItems": {
+        "1": [
+          99225158999855
+        ],
+        "2": [
+          100048144630949
+        ],
+        "3": [
+          130354389803827
+        ],
+        "4": [
+          78558938588455
+        ],
+        "5": [
+          82720778455964
+        ],
+        "6": [
+          80874043838514
+        ],
+        "7": [
+          94478062582826
         ]
       }
     }
