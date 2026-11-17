@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1993,
-  "lastUpdate": "2026-11-17T12:57:52.794Z",
+  "totalItems": 1994,
+  "lastUpdate": "2026-11-17T21:39:43.881Z",
   "data": [
     {
       "id": 2623795,
@@ -55804,6 +55804,34 @@
         ],
         "7": [
           78742751603760
+        ]
+      }
+    },
+    {
+      "id": 120869692101090,
+      "name": "Chill School Boy",
+      "description": "More UGC: https://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=Benere+%26+Chenere%27s+UGC&CreatorType=Group&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          111452791937431
+        ],
+        "2": [
+          102751673329800
+        ],
+        "3": [
+          112216813976017
+        ],
+        "4": [
+          111958747875597
+        ],
+        "5": [
+          108359237820406
+        ],
+        "6": [
+          135557501571008
+        ],
+        "7": [
+          122282692724412
         ]
       }
     }
