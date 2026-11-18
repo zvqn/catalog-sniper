@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1998,
-  "lastUpdate": "2026-11-18T12:50:50.809Z",
+  "totalItems": 2001,
+  "lastUpdate": "2026-11-18T21:15:11.529Z",
   "data": [
     {
       "id": 2623795,
@@ -55944,6 +55944,90 @@
         ],
         "7": [
           128320177955488
+        ]
+      }
+    },
+    {
+      "id": 104797477508524,
+      "name": "Cute Kawaii Shy Bouncy Psycho",
+      "description": "A dreamy psycho Kawaii Joyful animation pack with playful charm, soft confidence, and a touch of magical elegance! ✨",
+      "bundledItems": {
+        "1": [
+          118466884293783
+        ],
+        "2": [
+          138476074644484
+        ],
+        "3": [
+          111623247787751
+        ],
+        "4": [
+          89730478969916
+        ],
+        "5": [
+          80586377479805
+        ],
+        "6": [
+          125372554604671
+        ],
+        "7": [
+          139739955786405
+        ]
+      }
+    },
+    {
+      "id": 69214664239929,
+      "name": "Natsuki Doki Doki Pack",
+      "description": "🛍️Shop More Here! https://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=Iancelot&CreatorType=Group&salesTypeFilter=1\n\n❗Join The Group and Support! \nhttps://www.roblox.com/communities/744852727/Iancelot#!/store",
+      "bundledItems": {
+        "1": [
+          119712283766169
+        ],
+        "2": [
+          118365571688204
+        ],
+        "3": [
+          85917979537201
+        ],
+        "4": [
+          74044440332351
+        ],
+        "5": [
+          84375307456913
+        ],
+        "6": [
+          79423320133972
+        ],
+        "7": [
+          130735421927526
+        ]
+      }
+    },
+    {
+      "id": 4667142662431,
+      "name": "Sans Animation Pack",
+      "description": "Join the group! - https://www.roblox.com/communities/913521763/Emote-Crypt#!/about\n\nmore emotes and animations here - https://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=Emote+Crypt&CreatorType=Group&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          101336021053693
+        ],
+        "2": [
+          115924961448804
+        ],
+        "3": [
+          120939621104537
+        ],
+        "4": [
+          78686981419384
+        ],
+        "5": [
+          97713317448790
+        ],
+        "6": [
+          106470458759461
+        ],
+        "7": [
+          102056911541253
         ]
       }
     }
