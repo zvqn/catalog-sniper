@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 1994,
-  "lastUpdate": "2026-11-17T21:39:43.881Z",
+  "totalItems": 1996,
+  "lastUpdate": "2026-11-18T03:30:28.016Z",
   "data": [
     {
       "id": 2623795,
@@ -55832,6 +55832,62 @@
         ],
         "7": [
           122282692724412
+        ]
+      }
+    },
+    {
+      "id": 207829702461343,
+      "name": "Cute Kawaii Chibi Bouncy",
+      "description": "Cute Kawaii Chibi Bouncy",
+      "bundledItems": {
+        "1": [
+          95389158114900
+        ],
+        "2": [
+          82795955717502
+        ],
+        "3": [
+          128289314437902
+        ],
+        "4": [
+          94897820541169
+        ],
+        "5": [
+          140670920937563
+        ],
+        "6": [
+          132079096997331
+        ],
+        "7": [
+          88407707460358
+        ]
+      }
+    },
+    {
+      "id": 35969619308804,
+      "name": "Aura + Ninja Animation Pack",
+      "description": "Feel the power.\n\nMore Animations: https://www.roblox.com/catalog?=whf6kUVBwk2xdwKUmRYN6G&CreatorName=Ghosted&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          133971664311746
+        ],
+        "2": [
+          91712052561533
+        ],
+        "3": [
+          83932895194451
+        ],
+        "4": [
+          131211964895017
+        ],
+        "5": [
+          86843456649611
+        ],
+        "6": [
+          113592836184912
+        ],
+        "7": [
+          136003440983426
         ]
       }
     }
