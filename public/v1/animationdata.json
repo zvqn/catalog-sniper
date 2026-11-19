@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 2011,
-  "lastUpdate": "2026-11-19T11:31:37.133Z",
+  "totalItems": 2013,
+  "lastUpdate": "2026-11-19T20:19:08.319Z",
   "data": [
     {
       "id": 2623795,
@@ -56308,6 +56308,62 @@
         ],
         "7": [
           85740920310615
+        ]
+      }
+    },
+    {
+      "id": 137765228649895,
+      "name": "Huntsman Spider Animation Pack",
+      "description": "This is made for: https://www.roblox.com/catalog/114814812217376/Huntsman-Spider-1-2\n⭐FAVOURITE FOR MORE⭐",
+      "bundledItems": {
+        "1": [
+          136268128530480
+        ],
+        "2": [
+          102426314928778
+        ],
+        "3": [
+          131674664810221
+        ],
+        "4": [
+          112695102536996
+        ],
+        "5": [
+          108552427534909
+        ],
+        "6": [
+          103712109933993
+        ],
+        "7": [
+          137827645369598
+        ]
+      }
+    },
+    {
+      "id": 179312333117288,
+      "name": "R6 Think",
+      "description": "⭐ High quality anim packs. Favorite for more and join group ⭐\nhttps://www.roblox.com/communities/327027635/Matvey-Animations#!/about",
+      "bundledItems": {
+        "1": [
+          122261228776741
+        ],
+        "2": [
+          133173377337476
+        ],
+        "3": [
+          88539749788143
+        ],
+        "4": [
+          107392121155309
+        ],
+        "5": [
+          70865915688748
+        ],
+        "6": [
+          79153319067831
+        ],
+        "7": [
+          115395251746174
         ]
       }
     }
