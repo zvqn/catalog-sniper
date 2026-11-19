@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 2007,
-  "lastUpdate": "2026-11-19T03:02:11.649Z",
+  "totalItems": 2011,
+  "lastUpdate": "2026-11-19T11:31:37.133Z",
   "data": [
     {
       "id": 2623795,
@@ -56196,6 +56196,118 @@
         ],
         "7": [
           121037170994841
+        ]
+      }
+    },
+    {
+      "id": 84513246131312,
+      "name": "Scene Girl Animation Pack",
+      "description": "rawr :3\n\nKeep it stylish, shop Gyarufiction: https://www.roblox.com/communities/13211975/Gyarufiction#!/store",
+      "bundledItems": {
+        "1": [
+          91729508565883
+        ],
+        "2": [
+          89325026176091
+        ],
+        "3": [
+          109250165498694
+        ],
+        "4": [
+          117174980737811
+        ],
+        "5": [
+          107814441534907
+        ],
+        "6": [
+          78506486179944
+        ],
+        "7": [
+          138581470967763
+        ]
+      }
+    },
+    {
+      "id": 180194979255960,
+      "name": "Iron Man Animation Pack",
+      "description": "Iron Man Animation Pack\n\n\n\n\nrat jammin",
+      "bundledItems": {
+        "1": [
+          107132971673449
+        ],
+        "2": [
+          100156910641611
+        ],
+        "3": [
+          94226556858369
+        ],
+        "4": [
+          110119735704193
+        ],
+        "5": [
+          111290077965820
+        ],
+        "6": [
+          114810766597384
+        ],
+        "7": [
+          113566181284811
+        ]
+      }
+    },
+    {
+      "id": 188521954770400,
+      "name": "Scared Cute Shy Animation Pack ♡",
+      "description": "Kawaii Scared Cute Shy Animation Pack Bundle (made by 1z_key)",
+      "bundledItems": {
+        "1": [
+          82337097929325
+        ],
+        "2": [
+          111333901780171
+        ],
+        "3": [
+          124619172545021
+        ],
+        "4": [
+          86643900943798
+        ],
+        "5": [
+          96997760155414
+        ],
+        "6": [
+          109646409061360
+        ],
+        "7": [
+          80759071364479
+        ]
+      }
+    },
+    {
+      "id": 85699889384077,
+      "name": "Cute Doll Pack",
+      "description": "⭐️ ORIGINAL AND BEST VERSION!\n👑 Cute Doll Pack\nFavorite For More and For Cheaper Price - Thank You!\n✅ Join my Roblox Group here: 👇\nhttps://www.roblox.com/communities/1093637259/Lucky-Animations",
+      "bundledItems": {
+        "1": [
+          103265903573237
+        ],
+        "2": [
+          137935721629918
+        ],
+        "3": [
+          97903248247331
+        ],
+        "4": [
+          76502540983191
+        ],
+        "5": [
+          127498935159192
+        ],
+        "6": [
+          140511035957906
+        ],
+        "7": [
+          85740920310615
         ]
       }
     }
