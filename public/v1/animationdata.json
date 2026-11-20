@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 2017,
-  "lastUpdate": "2026-11-20T02:10:40.211Z",
+  "totalItems": 2022,
+  "lastUpdate": "2026-11-20T11:08:55.779Z",
   "data": [
     {
       "id": 2623795,
@@ -56476,6 +56476,146 @@
         ],
         "7": [
           97581878245101
+        ]
+      }
+    },
+    {
+      "id": 188589817198419,
+      "name": "Birdbrain Teto - VOCALOID",
+      "description": "More Miku + Teto + Vocaloid Anim Packs:\n\nhttps://www.roblox.com/catalog?Keyword=Miku+Teto&taxonomy=whf6kUVBwk2xdwKUmRYN6G&CreatorName=AvatarVerse&salesTypeFilter=1\n\nANIMATED: Amanai",
+      "bundledItems": {
+        "1": [
+          117203928564263
+        ],
+        "2": [
+          99918376794809
+        ],
+        "3": [
+          99588207082831
+        ],
+        "4": [
+          73537504611056
+        ],
+        "5": [
+          106303786394084
+        ],
+        "6": [
+          137768362734522
+        ],
+        "7": [
+          118614227129742
+        ]
+      }
+    },
+    {
+      "id": 152069202259843,
+      "name": "Glitch Survivor Animation Pack",
+      "description": "H1.\n\nMore Animations in our group:\nhttps://www.roblox.com/communities/419906267/Super-Emotes#!/about",
+      "bundledItems": {
+        "1": [
+          133504679274228
+        ],
+        "2": [
+          130961980253889
+        ],
+        "3": [
+          128869713197086
+        ],
+        "4": [
+          76075482750915
+        ],
+        "5": [
+          118510010918433
+        ],
+        "6": [
+          123489879177483
+        ],
+        "7": [
+          97613727526566
+        ]
+      }
+    },
+    {
+      "id": 205056113583275,
+      "name": "Christmas Riding Santas Sleigh",
+      "description": "Sleigh Accessory: https://www.roblox.com/catalog/15351570349/Santas-Sleigh\n\n\nMore animations packs here: \nhttps://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=ANIMATION+BUNDLES+FOR+YOU&CreatorType=Group&salesTypeFilter=1&SortType=3",
+      "bundledItems": {
+        "1": [
+          85040337021539
+        ],
+        "2": [
+          89924488273551
+        ],
+        "3": [
+          90011851379403
+        ],
+        "4": [
+          75536241641370
+        ],
+        "5": [
+          70988834395819
+        ],
+        "6": [
+          95186076359210
+        ],
+        "7": [
+          98242728558500
+        ]
+      }
+    },
+    {
+      "id": 131574416628436,
+      "name": "🧝 Jolly Christmas Elf",
+      "description": "It's beginning to look a lot like Christmas- and that means Santa needs his little helpers!\n\n☆ Shop more animations: https://www.roblox.com/communities/34422320/Junos-Emotes#!/store",
+      "bundledItems": {
+        "1": [
+          95016143305620
+        ],
+        "2": [
+          113557157150507
+        ],
+        "3": [
+          82359733065636
+        ],
+        "4": [
+          85341534039289
+        ],
+        "5": [
+          133449792637330
+        ],
+        "6": [
+          80637839673224
+        ],
+        "7": [
+          99604268988745
+        ]
+      }
+    },
+    {
+      "id": 51813873643645,
+      "name": "Cute Sassy",
+      "description": "Cute Sassy",
+      "bundledItems": {
+        "1": [
+          139575785955442
+        ],
+        "2": [
+          99810142855933
+        ],
+        "3": [
+          123592946924487
+        ],
+        "4": [
+          124916386030544
+        ],
+        "5": [
+          132469486117780
+        ],
+        "6": [
+          71775731085447
+        ],
+        "7": [
+          93433317370476
         ]
       }
     }
