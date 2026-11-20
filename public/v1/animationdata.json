@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 2013,
-  "lastUpdate": "2026-11-19T20:19:08.319Z",
+  "totalItems": 2017,
+  "lastUpdate": "2026-11-20T02:10:40.211Z",
   "data": [
     {
       "id": 2623795,
@@ -56364,6 +56364,118 @@
         ],
         "7": [
           115395251746174
+        ]
+      }
+    },
+    {
+      "id": 12902984653072,
+      "name": "😇 Lovely Floating Angel",
+      "description": "More animations packs here: \nhttps://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=ANIMATION+BUNDLES+FOR+YOU&CreatorType=Group&salesTypeFilter=1&SortType=3",
+      "bundledItems": {
+        "1": [
+          97947451535237
+        ],
+        "2": [
+          81916558634671
+        ],
+        "3": [
+          85723262663323
+        ],
+        "4": [
+          117900636634439
+        ],
+        "5": [
+          110778405204445
+        ],
+        "6": [
+          112759694462034
+        ],
+        "7": [
+          104863370130348
+        ]
+      }
+    },
+    {
+      "id": 228849015858358,
+      "name": "Scared R6 Animation Pack",
+      "description": "Check out my other items: https://www.roblox.com/communities/16640808/Clocksets-Crazy-UGC-Creations#!/store",
+      "bundledItems": {
+        "1": [
+          72289266527267
+        ],
+        "2": [
+          85790700559163
+        ],
+        "3": [
+          110267501849482
+        ],
+        "4": [
+          128373983530803
+        ],
+        "5": [
+          97814263207610
+        ],
+        "6": [
+          119575128500970
+        ],
+        "7": [
+          122726017687029
+        ]
+      }
+    },
+    {
+      "id": 160353746139013,
+      "name": "Cute Kawaii Shy Doll",
+      "description": "⭐ High quality anim packs. Favorite for more and join group ⭐\nhttps://www.roblox.com/communities/327027635/Matvey-Animations#!/about",
+      "bundledItems": {
+        "1": [
+          132626429725784
+        ],
+        "2": [
+          84376315616901
+        ],
+        "3": [
+          132507192773303
+        ],
+        "4": [
+          101095384233752
+        ],
+        "5": [
+          81313957270038
+        ],
+        "6": [
+          86157833337003
+        ],
+        "7": [
+          70490719086959
+        ]
+      }
+    },
+    {
+      "id": 272148363726799,
+      "name": "Big Axe Stance Bundle",
+      "description": "Made by: Lotucupi",
+      "bundledItems": {
+        "1": [
+          115779131430492
+        ],
+        "2": [
+          100963481048659
+        ],
+        "3": [
+          89063894130230
+        ],
+        "4": [
+          76549644167852
+        ],
+        "5": [
+          84430008963440
+        ],
+        "6": [
+          128865304032504
+        ],
+        "7": [
+          97581878245101
         ]
       }
     }
