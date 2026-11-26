@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 2084,
-  "lastUpdate": "2026-11-26T14:52:31.125Z",
+  "totalItems": 2086,
+  "lastUpdate": "2026-11-26T23:37:54.870Z",
   "data": [
     {
       "id": 2623795,
@@ -58352,6 +58352,62 @@
         ],
         "7": [
           104804567036345
+        ]
+      }
+    },
+    {
+      "id": 149227822779281,
+      "name": "🌨️❄️Snow Aura Pack",
+      "description": "❄️Chilly🌨️\n\nbody (Required):\nhttps://www.roblox.com/bundles/225749897153126/Snow-Aura-R6-Converter\n\nNote: some avatar scaling may break the snow\n\nBy @iguf54",
+      "bundledItems": {
+        "1": [
+          80850956604466
+        ],
+        "2": [
+          82049168224803
+        ],
+        "3": [
+          92824204606589
+        ],
+        "4": [
+          91129997602143
+        ],
+        "5": [
+          77291689195457
+        ],
+        "6": [
+          79503723230842
+        ],
+        "7": [
+          133824779777609
+        ]
+      }
+    },
+    {
+      "id": 103929311489032,
+      "name": "Cute Kawaii Anime Girl Pack",
+      "description": "⭐Join Group and Favourite for More Emotes and UGC⭐\nhttps://www.roblox.com/communities/17237812/cuh#!/store",
+      "bundledItems": {
+        "1": [
+          80631627779591
+        ],
+        "2": [
+          93662939513674
+        ],
+        "3": [
+          114414433372261
+        ],
+        "4": [
+          96899893557378
+        ],
+        "5": [
+          106089400567669
+        ],
+        "6": [
+          123394974297143
+        ],
+        "7": [
+          91706652645559
         ]
       }
     }
