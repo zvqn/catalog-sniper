@@ -1,7 +1,7 @@
 {
   "keyword": null,
-  "totalItems": 2082,
-  "lastUpdate": "2026-11-26T04:49:21.855Z",
+  "totalItems": 2084,
+  "lastUpdate": "2026-11-26T14:52:31.125Z",
   "data": [
     {
       "id": 2623795,
@@ -58296,6 +58296,62 @@
         ],
         "7": [
           97228048834185
+        ]
+      }
+    },
+    {
+      "id": 118162940466683,
+      "name": "Nonchalant Chill",
+      "description": "More UGC: https://www.roblox.com/catalog?taxonomy=tZsUsd2BqGViQrJ9Vs3Wah&CreatorName=Benere+%26+Chenere%27s+UGC&CreatorType=Group&salesTypeFilter=1",
+      "bundledItems": {
+        "1": [
+          82147823028404
+        ],
+        "2": [
+          124837613645234
+        ],
+        "3": [
+          122668845250002
+        ],
+        "4": [
+          91360776165879
+        ],
+        "5": [
+          102829787467416
+        ],
+        "6": [
+          94335903700272
+        ],
+        "7": [
+          122232289187116
+        ]
+      }
+    },
+    {
+      "id": 126080664233202,
+      "name": "Tall Scary Monster",
+      "description": "Tall Scary Halloween Monster\n\nMore Animations in our group:\nhttps://www.roblox.com/communities/419906267/Super-Emotes#!/about",
+      "bundledItems": {
+        "1": [
+          73655855291855
+        ],
+        "2": [
+          98012011575637
+        ],
+        "3": [
+          80965438136984
+        ],
+        "4": [
+          138450562412018
+        ],
+        "5": [
+          118873912145659
+        ],
+        "6": [
+          111805912642771
+        ],
+        "7": [
+          104804567036345
         ]
       }
     }
